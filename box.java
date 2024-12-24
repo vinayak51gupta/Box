@@ -12,6 +12,9 @@ class Pen{
     String name;
     String color;
     int tipsize;
+    Pen(){
+        System.out.println("this is a constructor");
+    }
     void changecolor(String newcolor){
         color = newcolor;
     }
